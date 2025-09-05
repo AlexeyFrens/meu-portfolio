@@ -1,0 +1,76 @@
+
+.main-container {
+    background-color: var(--bg-main);
+    margin: 0 20px 80px;
+    border-radius: 5px;
+    padding: 30px 0;
+    max-width: 1054px;
+}
+
+.introduction-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 30px
+}
+
+.introduction-section img {
+    width: 100%;
+    height: 100%;
+    max-width: 270px;
+    max-height: 325px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.introduction-section h1 {
+    align-self: flex-start;
+}
+
+.introduction-section h1 span {
+    color: transparent;
+    background: var(--bg-introduction-title);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.introduction-section p {
+    color: var(--color-introduction-text);
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.skills-section {
+    margin-top: 40px;
+    padding: 50px 30px;
+    background-color: var(--bg-skills-section);
+}
+
+.skills-section-content .skills-text {
+    margin-top: 50px;
+    color: var(--color-skills-text);
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.skills-section-content .skills-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.skills-section-content .language-title {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skills-section-content .languages-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}

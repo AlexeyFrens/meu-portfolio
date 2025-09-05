@@ -1,0 +1,17 @@
+
+.section-title-container h2 {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.section-title-container::after {
+    content: "";
+    margin-top: 10px;
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: var(--border-section-title);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}

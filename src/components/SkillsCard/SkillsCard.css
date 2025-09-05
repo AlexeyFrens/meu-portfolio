@@ -1,0 +1,18 @@
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: var(--bg-skills-card);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    max-width: 280px;
+    min-width: 200px;
+}
+
+.skills-card img {
+    width: 100px;
+    height: 100px;
+}

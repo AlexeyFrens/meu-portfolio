@@ -1,0 +1,37 @@
+
+.badge-text {
+    padding: 10px;
+    border: 1px solid transparent;
+    width: max-content;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 0.65rem;
+    font-weight: 700;
+}
+
+.aprendendo {
+    background-color: var(--bg-badge-aprendendo);
+    border-color: var(--stroke-badge-aprendendo);
+    color: var(--color-badge-aprendendo);
+}
+
+.confortavel {
+    background-color: var(--bg-badge-confortavel);
+    border-color: var(--stroke-badge-confortavel);
+    color: var(--color-badge-confortavel);
+}
+
+.familiar {
+    background-color: var(--bg-badge-familiar);
+    border-color: var(--stroke-badge-familiar);
+    color: var(--color-badge-familiar);
+}
+
+.default {
+    background-color: var(--bg-badge-default);
+    color: var(--color-badge-default);
+    font-size: 0.75rem;
+    min-width: 55px;
+    padding: 5px 10px;
+    text-align: center;
+}
