@@ -46,6 +46,10 @@
   font-family: "IBM Plex Mono", monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000000;
 }
