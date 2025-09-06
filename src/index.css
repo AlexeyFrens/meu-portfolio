@@ -11,6 +11,7 @@
   --bg-navbar-title: linear-gradient(180deg, rgba(29, 93, 199, 1), rgba(17, 56, 120, 1));
   --color-navbar-items: #3F3F3F;
   --border-menu-hamburger: rgba(29, 93, 199, 1);
+  --color-scrolled-menu-hamburger: rgba(29, 93, 199, 1);
 
   --bg-introduction-title: linear-gradient(180deg, rgba(29, 93, 199, 1), rgba(17, 56, 120, 1));
   --color-introduction-text: #3F3F3F;
@@ -18,6 +19,12 @@
   --bg-skills-section: #F7F7F7;
   --color-skills-text: #3F3F3F;
   --bg-skills-card: #FFFFFF;
+
+  --bg-projects-card: #FFFFFF;
+  --color-projects-text: #3F3F3F;
+  --color-projects-link: rgba(29, 93, 199, 1);
+  --bg-github-button: #000000;
+  --color-github-button-text: #FFFFFF;
 
   /* Badges Status Color - Start*/
 

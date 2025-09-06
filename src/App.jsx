@@ -1,29 +1,14 @@
 import './App.css'
-import Navbar from "./components/Navbar/Navbar.jsx";
 import myImage from "./assets/images/mypicture.jpg"
+import {cardsConfigs, projectsConfigs} from "./assets/data/portfolioData.js"
+
+import Navbar from "./components/Navbar/Navbar.jsx";
 import SectionTitle from "./components/SectionTitle/SectionTitle.jsx";
 import SkillsCard from "./components/SkillsCard/SkillsCard.jsx";
-
-import JavaScriptImage from "./assets/images/skills/javascript.svg";
-import CssImage from "./assets/images/skills/css.svg";
 import RoundedBadge from "./components/RoundedBadge/RoundedBadge.jsx";
+import ProjectsCard from "./components/ProjectsCard/ProjectsCard.jsx";
 
 function App() {
-
-    const cardsConfigs = [
-        {
-            image: JavaScriptImage,
-            alt: "JavaScript Icon",
-            title: "JavaScript",
-            text: "Aprendendo"
-        },
-        {
-            image: CssImage,
-            alt: "CSS Icon",
-            title: "CSS",
-            text: "Confortável"
-        }
-    ]
 
     return (
         <>
@@ -71,6 +56,27 @@ function App() {
                             <RoundedBadge text={"Inglês - Básico"} />
                             <RoundedBadge text={"Espanhol - Básico"} />
                         </div>
+                    </div>
+                </section>
+
+                <section id={"projects"} className={"projects-section"}>
+                    <div className={"projects-section-content"}>
+                        <SectionTitle title={"Meus Projetos"} />
+
+                        <p className={"projects-text"}>
+                            Alguns dos meus projetos que desenvolvi durante meu aprendizado, me ajudando a crescer
+                            como desenvolverdor
+                        </p>
+
+                        <div className="projects-cards">
+                            {projectsConfigs.map((config) => (
+                                <ProjectsCard key={config.title} config={config} />
+                            ))}
+                        </div>
+
+                        <a className={"direct-github"}
+                           href="https://github.com/AlexeyFrens?tab=repositories"
+                           target={"_blank"}>Veja todos os projetos no Github</a>
                     </div>
                 </section>
             </main>
