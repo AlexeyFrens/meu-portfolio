@@ -8,6 +8,7 @@ import SkillsCard from "./components/SkillsCard/SkillsCard.jsx";
 import RoundedBadge from "./components/RoundedBadge/RoundedBadge.jsx";
 import ProjectsCard from "./components/ProjectsCard/ProjectsCard.jsx";
 import ContactBlock from "./components/ContactBlock/ContactBlock.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
 
@@ -90,6 +91,12 @@ function App() {
                                 <ContactBlock key={config.title} config={config} />
                             ))}
                         </div>
+                    </div>
+                </section>
+
+                <section className="footer-container">
+                    <div className={"footer-section-content"}>
+                        <Footer/>
                     </div>
                 </section>
             </main>

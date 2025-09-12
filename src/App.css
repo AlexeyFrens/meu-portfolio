@@ -3,7 +3,7 @@
     background-color: var(--bg-main);
     margin: 210px 20px 80px;
     border-radius: 5px;
-    padding: 30px 0;
+    padding: 30px 0 0;
     max-width: 1054px;
 }
 
@@ -125,4 +125,13 @@
     flex-direction: column;
     margin-top: 50px;
     gap: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-footer-container);
+    padding: 50px 30px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
 }

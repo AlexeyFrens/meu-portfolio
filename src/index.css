@@ -29,6 +29,10 @@
   --bg-contact-icon: linear-gradient(-45deg, rgba(29, 93, 199, 1), rgba(17, 56, 120, 1));
   --bg-contact-text: rgba(29, 93, 199, 1);
 
+  --bg-footer-container: #111827;
+  --color-footer-title: #FFFFFF;
+  --color-footer-text: #BDBDBD;
+
   /* Badges Status Color - Start*/
 
   --bg-badge-aprendendo: #FFF4B0;
