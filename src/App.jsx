@@ -1,12 +1,13 @@
 import './App.css'
 import myImage from "./assets/images/mypicture.jpg"
-import {cardsConfigs, projectsConfigs} from "./assets/data/portfolioData.js"
+import {cardsConfigs, contactsConfigs, projectsConfigs} from "./assets/data/portfolioData.js"
 
 import Navbar from "./components/Navbar/Navbar.jsx";
 import SectionTitle from "./components/SectionTitle/SectionTitle.jsx";
 import SkillsCard from "./components/SkillsCard/SkillsCard.jsx";
 import RoundedBadge from "./components/RoundedBadge/RoundedBadge.jsx";
 import ProjectsCard from "./components/ProjectsCard/ProjectsCard.jsx";
+import ContactBlock from "./components/ContactBlock/ContactBlock.jsx";
 
 function App() {
 
@@ -77,6 +78,18 @@ function App() {
                         <a className={"direct-github"}
                            href="https://github.com/AlexeyFrens?tab=repositories"
                            target={"_blank"}>Veja todos os projetos no Github</a>
+                    </div>
+                </section>
+
+                <section id={"contact"} className="contacts-section">
+                    <div className={"contacts-section-content"}>
+                        <SectionTitle title={"Contate-me"} />
+
+                        <div className={"contacts-card"}>
+                            {contactsConfigs.map((config) => (
+                                <ContactBlock key={config.title} config={config} />
+                            ))}
+                        </div>
                     </div>
                 </section>
             </main>

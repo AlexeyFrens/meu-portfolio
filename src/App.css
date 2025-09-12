@@ -115,3 +115,14 @@
     background-size: contain;
     flex-shrink: 0;
 }
+
+.contacts-section {
+    padding: 50px 30px;
+}
+
+.contacts-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 20px;
+}

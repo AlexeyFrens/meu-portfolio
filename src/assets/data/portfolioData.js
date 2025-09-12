@@ -2,6 +2,10 @@ import JavaScriptImage from "../images/skills/javascript.svg";
 import CssImage from "../images/skills/css.svg";
 import HBOImage from "../images/projects/hbomax.png"
 import PokedexImage from "../images/projects/pokedex.png"
+import MailIcon from "../images/contacts/mail.svg"
+import GitHubIcon from "../images/contacts/githubWhite.svg"
+import LinkedinIcon from "../images/contacts/linkedin.svg"
+import LocationIcon from "../images/contacts/location.svg"
 
 export const cardsConfigs = [
     {
@@ -36,5 +40,36 @@ export const projectsConfigs = [
         tags: ["HTML", "CSS", "JavaScript", "API"],
         demoLink: "https://alexeyfrens.github.io/js-developer-pokedex/",
         codeLink: "https://github.com/AlexeyFrens/js-developer-pokedex"
+    }
+]
+
+export const contactsConfigs = [
+    {
+        icon: MailIcon,
+        alt: "Ícone de carta de correio",
+        title: "Email",
+        content: "joaocontatos56@gmail.com",
+        isEmail: true
+    },
+    {
+        icon: GitHubIcon,
+        alt: "Ícone do Github",
+        title: "GitHub",
+        link: "https://github.com/AlexeyFrens",
+        content: "github.com/AlexeyFrens"
+    },
+    {
+        icon: LinkedinIcon,
+        alt: "Ícone do Linkedin",
+        title: "Linkedin",
+        link: "https://www.linkedin.com/in/joao-claudio-dos-santos-souza/",
+        content: "linkedin.com/joao-claudio"
+    },
+    {
+        isDefault: true,
+        icon: LocationIcon,
+        alt: "Ícone de ponto de localização",
+        title: "Local",
+        content: "São Paulo - SP"
     }
 ]

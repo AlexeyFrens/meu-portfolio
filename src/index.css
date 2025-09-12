@@ -26,6 +26,9 @@
   --bg-github-button: #000000;
   --color-github-button-text: #FFFFFF;
 
+  --bg-contact-icon: linear-gradient(-45deg, rgba(29, 93, 199, 1), rgba(17, 56, 120, 1));
+  --bg-contact-text: rgba(29, 93, 199, 1);
+
   /* Badges Status Color - Start*/
 
   --bg-badge-aprendendo: #FFF4B0;
@@ -55,6 +58,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 100px;
 }
 
 body {
