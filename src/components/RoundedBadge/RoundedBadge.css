@@ -34,4 +34,9 @@
     min-width: 55px;
     padding: 5px 10px;
     text-align: center;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.default:hover {
+    background-color: var(--bg-badge-default-hover);
 }

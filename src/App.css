@@ -109,6 +109,14 @@
     border-radius: 10px;
     align-items: center;
     align-self: center;
+    border: 4px solid transparent;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.projects-section-content .direct-github:hover {
+    background-color: var(--bg-github-button-hover);
+    border: 4px solid var(--border-github-button-hover);
+    color: var(--color-github-button-text-hover);
 }
 
 .direct-github::before {
@@ -120,6 +128,10 @@
     background-repeat: no-repeat;
     background-size: contain;
     flex-shrink: 0;
+}
+
+.direct-github:hover::before {
+    background-image: url("src/assets/images/githubBlack.svg");
 }
 
 

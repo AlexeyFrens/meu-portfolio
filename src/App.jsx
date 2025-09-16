@@ -14,8 +14,6 @@ function App() {
 
     return (
         <>
-            <div className="background"></div>
-
             <Navbar/>
 
             <main className="main-container">
@@ -69,7 +67,7 @@ function App() {
 
                         <p className={"projects-text"}>
                             Alguns dos meus projetos que desenvolvi durante meu aprendizado, me ajudando a crescer
-                            como desenvolverdor
+                            como desenvolvedor
                         </p>
 
                         <div className="projects-cards">

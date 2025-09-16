@@ -10,6 +10,11 @@
     border-radius: 10px;
     max-width: 280px;
     min-width: 200px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skills-card:hover {
+    transform: scale(1.05);
 }
 
 .skills-card img {
