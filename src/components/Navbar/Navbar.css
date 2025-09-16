@@ -62,19 +62,18 @@
     right: 10%;
     top: 80%;
     padding: 10px;
-    background-color: var(--bf-navbar-list);
-    border: 3px solid var(--border-navbar-list);
+    background-color: transparent;
     border-radius: 10px;
-    transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 
 .navbar-list.scrolled {
     background-color: transparent;
-    --webkit-backdrop-filter: blur(10px);
 }
 
 .navbar-list.open {
     display: block;
+    background-color: var(--bf-navbar-list);
+    border: 3px solid var(--border-navbar-list);
 }
 
 .navbar-list li a {
@@ -82,6 +81,12 @@
     color: var(--color-navbar-items);
     font-weight: 700;
     font-size: 1rem;
+}
+
+.navbar-list li a:hover {
+    color: var(--color-navbar-list-hover);
+    border-bottom: 3px solid var(--border-navbar-list-hover);
+    transition: color 0.2s ease-in-out;
 }
 
 .navbar-list.scrolled li a {
@@ -99,7 +104,6 @@
         display: flex;
         gap: 30px;
         position: static;
-        border: none;
     }
 
     .menu-hamburger {
