@@ -1,4 +1,10 @@
 import JavaScriptImage from "../images/skills/javascript.svg";
+import TypeScriptImage from "../images/skills/typescript.svg";
+import AngularImage from "../images/skills/angular.svg";
+import MysqlImage from "../images/skills/mysql.svg";
+import JavaImage from "../images/skills/java.svg"
+import ReactImage from "../images/skills/react.svg";
+import SpringBootImage from "../images/skills/springboot.svg"
 import CssImage from "../images/skills/css.svg";
 import HtmlImage from "../images/skills/html.svg";
 import HBOImage from "../images/projects/hbomax.png"
@@ -13,19 +19,55 @@ export const cardsConfigs = [
         image: HtmlImage,
         alt: "Ícone do HTML",
         title: "HTML",
-        text: "Confortável"
+        text: "Avançado"
     },
     {
         image: CssImage,
         alt: "Ícone do CSS",
         title: "CSS",
-        text: "Confortável"
+        text: "Avançado"
     },
     {
         image: JavaScriptImage,
         alt: "Ícone do JavaScript",
         title: "JavaScript",
-        text: "Aprendendo"
+        text: "Intermediário"
+    },
+    {
+        image: JavaImage,
+        alt: "Ícone do Java",
+        title: "Java",
+        text: "Intermediário"
+    },
+    {
+        image: SpringBootImage,
+        alt: "Ícone do Spring Boot",
+        title: "Spring Boot",
+        text: "Básico"
+    },
+    {
+        image: MysqlImage,
+        alt: "Ícone do MySQL",
+        title: "MySQL",
+        text: "Intermediário"
+    },
+    {
+        image: ReactImage,
+        alt: "Ícone do React",
+        title: "React",
+        text: "Intermediário"
+    },
+    {
+        image: AngularImage,
+        alt: "Ícone do Angular",
+        title: "Angular",
+        text: "Básico"
+    },
+    {
+        image: TypeScriptImage,
+        alt: "Ícone do TypeScript",
+        title: "TypeScript",
+        text: "Básico"
     }
 ]
 

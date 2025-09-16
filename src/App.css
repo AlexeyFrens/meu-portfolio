@@ -62,7 +62,7 @@
 .skills-section-content .skills-cards, .projects-section-content .projects-cards {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px;
+    row-gap: 30px;
     margin-top: 50px;
 }
 
@@ -179,7 +179,7 @@
 
 @media screen and (min-width: 768px) {
     .skills-section-content .skills-cards {
-        grid-template-columns: 280px 280px;
+        grid-template-columns: 300px 300px;
         justify-content: center;
     }
 }
@@ -191,7 +191,7 @@
     }
 
     .skills-section-content .skills-cards {
-        grid-template-columns: 280px 280px 280px;
+        grid-template-columns: 300px 300px 300px;
         justify-content: space-between;
     }
 

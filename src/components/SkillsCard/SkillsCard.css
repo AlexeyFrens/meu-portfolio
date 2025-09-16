@@ -8,7 +8,7 @@
     background-color: var(--bg-skills-card);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    max-width: 280px;
+    max-width: 300px;
     min-width: 200px;
     transition: transform 0.2s ease-in-out;
 }

@@ -15,9 +15,9 @@ const RoundedBadge = ({text}) => {
         const formatedText = normalizeText(text);
 
         if(
-            formatedText === 'aprendendo' ||
-            formatedText === 'confortavel' ||
-            formatedText === 'familiar'
+            formatedText === 'intermediario' ||
+            formatedText === 'avancado' ||
+            formatedText === 'basico'
         ){
             return formatedText;
         }else {

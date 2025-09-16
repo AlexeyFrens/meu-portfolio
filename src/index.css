@@ -41,17 +41,17 @@
 
   /* Badges Status Color - Start*/
 
-  --bg-badge-aprendendo: #FFF4B0;
-  --stroke-badge-aprendendo: #CFB300;
-  --color-badge-aprendendo: #7B6B00;
+  --bg-badge-intermediario: #FFF4B0;
+  --stroke-badge-intermediario: #CFB300;
+  --color-badge-intermediario: #7B6B00;
 
-  --bg-badge-confortavel: #D4FFCE;
-  --stroke-badge-confortavel: #57D946;
-  --color-badge-confortavel: #108C00;
+  --bg-badge-avancado: #D4FFCE;
+  --stroke-badge-avancado: #57D946;
+  --color-badge-avancado: #108C00;
 
-  --bg-badge-familiar: #EDD8FF;
-  --stroke-badge-familiar: #7E22CE;
-  --color-badge-familiar: #7E22CE;
+  --bg-badge-basico: #EDD8FF;
+  --stroke-badge-basico: #7E22CE;
+  --color-badge-basico: #7E22CE;
 
   --bg-badge-default: #CDE3FF;
   --bg-badge-default-hover: #c0d5ef;

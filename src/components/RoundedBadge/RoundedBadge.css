@@ -9,22 +9,22 @@
     font-weight: 700;
 }
 
-.aprendendo {
-    background-color: var(--bg-badge-aprendendo);
-    border-color: var(--stroke-badge-aprendendo);
-    color: var(--color-badge-aprendendo);
+.intermediario {
+    background-color: var(--bg-badge-intermediario);
+    border-color: var(--stroke-badge-intermediario);
+    color: var(--color-badge-intermediario);
 }
 
-.confortavel {
-    background-color: var(--bg-badge-confortavel);
-    border-color: var(--stroke-badge-confortavel);
-    color: var(--color-badge-confortavel);
+.avancado {
+    background-color: var(--bg-badge-avancado);
+    border-color: var(--stroke-badge-avancado);
+    color: var(--color-badge-avancado);
 }
 
-.familiar {
-    background-color: var(--bg-badge-familiar);
-    border-color: var(--stroke-badge-familiar);
-    color: var(--color-badge-familiar);
+.basico {
+    background-color: var(--bg-badge-basico);
+    border-color: var(--stroke-badge-basico);
+    color: var(--color-badge-basico);
 }
 
 .default {
