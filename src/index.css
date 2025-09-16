@@ -12,6 +12,7 @@
   --color-navbar-items: #3F3F3F;
   --border-menu-hamburger: rgba(29, 93, 199, 1);
   --color-scrolled-menu-hamburger: rgba(29, 93, 199, 1);
+  --color-navbar-list-scrolled: rgba(29, 93, 199, 1);
 
   --bg-introduction-title: linear-gradient(180deg, rgba(29, 93, 199, 1), rgba(17, 56, 120, 1));
   --color-introduction-text: #3F3F3F;

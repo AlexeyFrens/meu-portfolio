@@ -10,7 +10,7 @@
     right: 20px;
     z-index: 1;
     max-width: 1054px;
-    transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    transition: background-color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
 }
 
 .navbar-container.scrolled {
@@ -65,6 +65,12 @@
     background-color: var(--bf-navbar-list);
     border: 3px solid var(--border-navbar-list);
     border-radius: 10px;
+    transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
+.navbar-list.scrolled {
+    background-color: transparent;
+    --webkit-backdrop-filter: blur(10px);
 }
 
 .navbar-list.open {
@@ -76,6 +82,10 @@
     color: var(--color-navbar-items);
     font-weight: 700;
     font-size: 1rem;
+}
+
+.navbar-list.scrolled li a {
+    color: var(--color-navbar-list-scrolled);
 }
 
 @media screen and (min-width: 340px) {

@@ -1,5 +1,6 @@
 import JavaScriptImage from "../images/skills/javascript.svg";
 import CssImage from "../images/skills/css.svg";
+import HtmlImage from "../images/skills/html.svg";
 import HBOImage from "../images/projects/hbomax.png"
 import PokedexImage from "../images/projects/pokedex.png"
 import MailIcon from "../images/contacts/mail.svg"
@@ -9,16 +10,22 @@ import LocationIcon from "../images/contacts/location.svg"
 
 export const cardsConfigs = [
     {
-        image: JavaScriptImage,
-        alt: "Ícone do JavaScript",
-        title: "JavaScript",
-        text: "Aprendendo"
+        image: HtmlImage,
+        alt: "Ícone do HTML",
+        title: "HTML",
+        text: "Confortável"
     },
     {
         image: CssImage,
         alt: "Ícone do CSS",
         title: "CSS",
         text: "Confortável"
+    },
+    {
+        image: JavaScriptImage,
+        alt: "Ícone do JavaScript",
+        title: "JavaScript",
+        text: "Aprendendo"
     }
 ]
 

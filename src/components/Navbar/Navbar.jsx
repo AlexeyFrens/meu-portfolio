@@ -8,7 +8,9 @@ const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
 
     const switchState = () => {
-        setIsOpen(!isOpen);
+        if(window.innerWidth <= 650) {
+            setIsOpen(!isOpen);
+        }
     }
 
     useEffect(() => {
@@ -40,7 +42,7 @@ const Navbar = () => {
                         <span className={`material-symbols-outlined`}>menu</span>
                     </button>
 
-                    <ul className={`navbar-list ${isOpen ? 'open' : ''}`}>
+                    <ul className={`navbar-list ${isOpen ? 'open' : ''} ${scrolled ? 'scrolled' : ''}`}>
                         <li><a onClick={switchState} href="#skills">Skills</a></li>
                         <li><a onClick={switchState} href="#projects">Projetos</a></li>
                         <li><a onClick={switchState} href="#contact">Contato</a></li>

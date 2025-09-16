@@ -26,6 +26,7 @@
 
 .introduction-section h1 {
     align-self: flex-start;
+    margin-bottom: 40px;
 }
 
 .introduction-section h1 span {
@@ -45,6 +46,10 @@
     margin-top: 40px;
     padding: 50px 30px;
     background-color: var(--bg-skills-section);
+}
+
+.skills-section-content {
+    position: relative;
 }
 
 .skills-section-content .skills-text {
@@ -82,6 +87,7 @@
 .projects-section-content {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 .projects-section-content .projects-text {
@@ -116,8 +122,13 @@
     flex-shrink: 0;
 }
 
+
 .contacts-section {
     padding: 50px 30px;
+}
+
+.contacts-section-content {
+    position: relative;
 }
 
 .contacts-card {
@@ -134,4 +145,62 @@
     padding: 50px 30px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
+}
+
+@media screen and (min-width: 370px) {
+    .skills-section-content .skills-cards, .projects-section-content .projects-cards {
+        justify-items: center;
+    }
+
+    .skills-text, .projects-text {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .contacts-card {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills-section-content .skills-cards {
+        grid-template-columns: 280px 280px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .introduction-section {
+        flex-direction: row;
+    }
+
+    .skills-section-content .skills-cards {
+        grid-template-columns: 280px 280px 280px;
+        justify-content: space-between;
+    }
+
+    .projects-section-content .projects-cards {
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+    }
+
+    .projects-section, .introduction-section, .skills-section, .contacts-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .contacts-card {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .main-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

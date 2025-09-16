@@ -16,3 +16,9 @@
     width: 100px;
     height: 100px;
 }
+
+@media screen and (min-width: 370px) {
+    .skills-card {
+        min-width: 280px;
+    }
+}

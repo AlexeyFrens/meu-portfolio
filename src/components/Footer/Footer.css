@@ -1,3 +1,13 @@
+@keyframes heart-pulse {
+    from{
+        opacity: 100%;
+        transform: scale(1.1);
+    }
+    to {
+        opacity: 50%;
+    }
+}
+
 .footer {
     display: flex;
     flex-direction: column;
@@ -45,4 +55,5 @@
     background-repeat: no-repeat;
     background-size: contain;
     margin-left: 4px;
+    animation: heart-pulse 1.2s ease-in-out infinite alternate;
 }

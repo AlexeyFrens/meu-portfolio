@@ -22,19 +22,21 @@ function App() {
                 <section className={"introduction-section"}>
                     <img src={myImage} alt="Um homem pardo com uma camisa azul escura"/>
 
-                    <h1>Olá,<br/> eu sou <br/> <span>João Cláudio</span></h1>
+                    <div>
+                        <h1>Olá,<br/> eu sou <br/> <span>João Cláudio</span></h1>
 
-                    <p>
-                        Comecei minha jornada com HTML, CSS e JavaScript, onde descobri minha paixão pelo
-                        desenvolvimento. Com o tempo, mergulhei em Java (Spring Boot), TypeScript e React, explorando
-                        tanto o backend quanto o frontend.
-                        <br/><br/>
-                        Atualmente curso Análise e Desenvolvimento de Sistemas no Senac Nações Unidas, onde também
-                        concluí o Técnico em TI. Tenho experiência em MySQL e contato inicial com PostgreSQL.
-                        <br/><br/>
-                        Mais do que escrever código, o que me move é a oportunidade de aprender, criar e dar vida a
-                        soluções que impactam pessoas.
-                    </p>
+                        <p>
+                            Comecei minha jornada com HTML, CSS e JavaScript, onde descobri minha paixão pelo
+                            desenvolvimento. Com o tempo, mergulhei em Java (Spring Boot), TypeScript e React, explorando
+                            tanto o backend quanto o frontend.
+                            <br/><br/>
+                            Atualmente curso Análise e Desenvolvimento de Sistemas no Senac Nações Unidas, onde também
+                            concluí o Técnico em TI. Tenho experiência em MySQL e contato inicial com PostgreSQL.
+                            <br/><br/>
+                            Mais do que escrever código, o que me move é a oportunidade de aprender, criar e dar vida a
+                            soluções que impactam pessoas.
+                        </p>
+                    </div>
                 </section>
 
                 <section id={"skills"} className={"skills-section"}>
