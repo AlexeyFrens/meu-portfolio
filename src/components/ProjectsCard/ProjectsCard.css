@@ -75,9 +75,9 @@
 }
 
 #demo-link::before {
-    background-image: url("src/assets/images/projects/shareIcon.svg");
+    background-image: url("/assets/images/projects/shareIcon.svg");
 }
 
 #code-link::before {
-    background-image: url("src/assets/images/projects/githubIcon.svg");
+    background-image: url("/assets/images/projects/githubIcon.svg");
 }

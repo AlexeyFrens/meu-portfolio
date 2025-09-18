@@ -1,18 +1,18 @@
-import JavaScriptImage from "../images/skills/javascript.svg";
-import TypeScriptImage from "../images/skills/typescript.svg";
-import AngularImage from "../images/skills/angular.svg";
-import MysqlImage from "../images/skills/mysql.svg";
-import JavaImage from "../images/skills/java.svg"
-import ReactImage from "../images/skills/react.svg";
-import SpringBootImage from "../images/skills/springboot.svg"
-import CssImage from "../images/skills/css.svg";
-import HtmlImage from "../images/skills/html.svg";
+import JavaScriptImage from "/assets/images/skills/javascript.svg";
+import TypeScriptImage from "/assets/images/skills/typescript.svg";
+import AngularImage from "/assets/images/skills/angular.svg";
+import MysqlImage from "/assets/images/skills/mysql.svg";
+import JavaImage from "/assets/images/skills/java.svg"
+import ReactImage from "/assets/images/skills/react.svg";
+import SpringBootImage from "/assets/images/skills/springboot.svg"
+import CssImage from "/assets/images/skills/css.svg";
+import HtmlImage from "/assets/images/skills/html.svg";
 import HBOImage from "../images/projects/hbomax.png"
 import PokedexImage from "../images/projects/pokedex.png"
-import MailIcon from "../images/contacts/mail.svg"
-import GitHubIcon from "../images/contacts/githubWhite.svg"
-import LinkedinIcon from "../images/contacts/linkedin.svg"
-import LocationIcon from "../images/contacts/location.svg"
+import MailIcon from "/assets/images/contacts/mail.svg"
+import GitHubIcon from "/assets/images/contacts/githubWhite.svg"
+import LinkedinIcon from "/assets/images/contacts/linkedin.svg"
+import LocationIcon from "/assets/images/contacts/location.svg"
 
 export const cardsConfigs = [
     {
