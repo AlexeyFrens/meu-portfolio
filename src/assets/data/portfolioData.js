@@ -9,6 +9,7 @@ import CssImage from "/assets/images/skills/css.svg";
 import HtmlImage from "/assets/images/skills/html.svg";
 import HBOImage from "../images/projects/hbomax.png"
 import PokedexImage from "../images/projects/pokedex.png"
+import LuxcarImage from "../images/projects/luxcar.png"
 import MailIcon from "/assets/images/contacts/mail.svg"
 import GitHubIcon from "/assets/images/contacts/githubWhite.svg"
 import LinkedinIcon from "/assets/images/contacts/linkedin.svg"
@@ -61,7 +62,7 @@ export const cardsConfigs = [
         image: AngularImage,
         alt: "Ícone do Angular",
         title: "Angular",
-        text: "Básico"
+        text: "Intermediário"
     },
     {
         image: TypeScriptImage,
@@ -89,6 +90,15 @@ export const projectsConfigs = [
         tags: ["HTML", "CSS", "JavaScript", "API"],
         demoLink: "https://alexeyfrens.github.io/js-developer-pokedex/",
         codeLink: "https://github.com/AlexeyFrens/js-developer-pokedex"
+    },
+    {
+        image: LuxcarImage,
+        alt: "Imagem da Home do projeto Luxcar",
+        title: "Luxcar - Locadora de luxo",
+        description: "Projeto Integrador do 3º semestre de Análise e Desenvolvimento de Sistemas. Consiste em um sistema de gerenciamento e locação para uma locadora de luxo",
+        tags: ["Angular", "Angular Material", "TypeScript", "API"],
+        demoLink: "https://luxcar-pi3.web.app/",
+        codeLink: "https://github.com/AlexeyFrens/luxcar"
     }
 ]
 
